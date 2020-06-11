@@ -1,0 +1,96 @@
+/* Estilo general de todas las páginas */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo de todas las páginas */
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilo general del contenedor principal de todas las páginas */
+#contenedor-principal {
+    width: 90%;
+    margin: 0px auto;
+}
+
+/* Estilo general del encabezado de todas las páginas */
+#encabezado {
+    width: 100%;
+    height: 220px;
+    margin: 0px;
+    background: #dff6e0;
+    border-bottom: 10px solid;
+}
+
+/* Estilo de la imagen del logotipo de la empresa */
+#encabezado img {
+    width: 200px;
+    height: 170px;
+    float: left;
+}
+
+/* Estilo del nombre de la empresa */
+#encabezado h1 {
+    margin: 30px;
+    padding-top: 30px;
+}
+
+/* Estilo general de la barra de navegación */
+#barra-navegacion {
+    background: #dff6e0;
+    width: 70%;
+    height: 38px;
+    line-height: 30px;
+    float: right;
+}
+
+/* Estilos de las opciones del listado no ordenado */
+#barra-navegacion li {
+    list-style: none;
+    float: left;
+    padding: 10px 30px;
+}
+
+#barra-navegacion a {
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+#barra-navegacion a:hover{
+    border: 1px solid blue;
+    border-radius: 10px;
+    background-color: gainsboro;
+}
+
+/* Estilo del pie de página */
+footer {
+    background: black;
+    color: white;
+    height: 70px;
+    line-height: 50px;
+    border-top: 10px solid black;
+}
+
+footer p {
+    padding-left: 20px;
+    float: left;
+}
+
+footer img {
+    margin-top: 10px;
+    margin-right: 30px;
+    float: right;
+    width: 20px;
+    height: 20px;
+}
+
+/* Comodín */
+.clearfix {
+    clear: both;
+}

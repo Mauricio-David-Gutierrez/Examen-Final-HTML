@@ -1,0 +1,29 @@
+table {
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+caption {
+    font-style: italic;
+    border-bottom: solid black;
+    margin-bottom: 5px;
+}
+
+#servicio {
+    text-align: left;
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+}
+
+tr:hover {
+    border: 1px solid blue;
+    background-color: gainsboro;
+}
+
+#preciopie {
+    font-size: x-small;
+}

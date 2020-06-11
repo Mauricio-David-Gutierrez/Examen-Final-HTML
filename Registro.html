@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta http-equiv="content-type" content="text/html">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Mauricio David Gutiérrez">
+        <meta name="keywords" content="servicios informáticos, computadoras, sistemas, redes, soporte técnico">
+        <meta name="description" content="Servicios en instalación y mantenimiento de redes, 
+                                        Diseño de sistemas ajustados a la medida de la empresa, 
+                                        Diseño de Páginas Web, 
+                                        Mantenimiento preventivo de equipos informáticos, 
+                                        Soporte técnico en el área de infraestructura informática">
+
+        <title>MDG-Technology (Registro)</title>
+
+        <link rel="stylesheet" href="Estilos CSS/EstilosGenerales.css">
+        <link rel="stylesheet" href="Estilos CSS/EstilosInicio.css">
+        <link rel="stylesheet" href="Estilos CSS/EstilosRegistro.css">
+
+        <link rel="shortcut icon" href="Imagenes/LogoFavicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+
+        <div id="contenedor-principal">
+
+            <header id="encabezado">
+                <img src="Imagenes/LogotipoEmpresa.svg" alt="Logo Empresa" title="MDG - Technology">
+                <h1>MDG-Technology</h1>
+                <h2>Brindarles un servicio personalizado, esmerado y de calidad es nuestro lema</h2>
+                <h2>Su satisfacción es nuestra mejor recompensa</h2>
+                
+                <br>
+                
+                <nav id="barra-navegacion">
+                    <ul>
+                        <li><a href="Index.html">Inicio</a></li>
+                        <li><a href="Servicios.html">Servicios</a></li>
+                        <li><a href="Contactenos.html">Contáctenos</a></li>
+                        <li><a href="InicioSesion.html">Inicio de sesión</a></li>
+                        <li><a href="#">Registro</a></li>
+                        <li><a href="AcercaDe.html">Acerca de</a></li>
+                    </ul>
+                </nav>
+            </header>
+            
+            <div class="clearfix"></div>
+            
+            <section id="seccion-media">
+                <h2>REGISTRO DEL CLIENTE</h2>
+                <!--<form action="" method="post">-->
+                <form>
+                    <fieldset>
+                        <legend>Datos Personales</legend>
+
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" required>
+                        
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apellido" required>
+
+                        <label for="telefono">Número Telefónico</label>
+                        <input type="tel" id="telefono">
+
+                        <label for="genero">Género:
+                            <input type="radio" id="masculino" name="genero" value="m">Masculino
+                            <input type="radio" id="femenino" name="genero" value="f">Femenino
+                        </label>
+
+                        <label for="preferencias">Preferencias:
+                            <input type="checkbox" name="musica">Música
+                            <input type="checkbox" name="Peliculas">Películas
+                            <input type="checkbox" name="Programas">Programas
+                            <input type="checkbox" name="documentos">Documentos
+                        </label>
+
+                        <label for="region">Selección de Región</label>
+                        <select id="region" name="region">
+                            <option value="1">Managua</option>
+                            <option value="2">Carazo</option>
+                            <option value="3">León</option>
+                            <option value="4">Costa Atlántica</option>
+                            <option value="5">Otra región</option>
+                        </select>
+                        
+                        <label for="comentario">Comentarios</label>
+                        <textarea name="comentario" placeholder="Por favor sea breve" required></textarea>
+                        
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Datos de Contacto</legend>
+
+                        <label for="correo">Correo Electrónico</label>
+                        <input type="email" id="correo" placeholder="ej.: usuario@servidor.com" required>
+
+                        <label for="clave">Contraseña</label>
+                        <input type="password" id="clave" placeholder="ej.: UsU@r10" required>
+
+                        <label for="condiciones">Acepta Términos y Condiciones
+                            <input type="checkbox" name="condiciones" required checked>
+                        </label>
+                    </fieldset>
+                            
+                    <input type="submit" value="Continuar" id="continuar">
+
+                </form>
+            </section>
+            
+            <div class="clearfix"></div>
+            
+            <footer>
+                <P>liftinggenerations.org &copy; 2020</P>
+                <P>Mauricio Gutiérrez &copy; 2020</P>
+                <a href="https://www.instagram.com/accounts/login/?hl=es-la" target="_blank">
+                    <img src="Imagenes/instagram.svg" alt="LogoInstagram" title="Síguenos por instagram">
+                </a>
+                <a href="https://twitter.com/login?lang=es" target="_blank">
+                    <img src="Imagenes/twitter.svg" alt="LogoTwitter" title="Síguenos por twitter">
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                    <img src="Imagenes/facebook.svg" alt="LogoFacebook" title="Síguenos por FaceBook">
+                </a>
+            </footer>
+        </div>
+    </body>
+</html>

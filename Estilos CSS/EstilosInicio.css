@@ -1,0 +1,51 @@
+/* Estilo general de la sección media de la página */
+#seccion-media {
+    float: left;
+    width: 100%;
+    min-height: 600px;
+    background: #5fdde5;
+    padding: 40px;
+}
+
+/*Estilos de los componentes de la sección media */
+#seccion-media p {
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+/* Estilo general de las dos secciones de artículos */
+.articulo1, .articulo2{
+    margin-top: 15px;
+    padding-bottom: 10px;
+    width: 49%;
+    height: 550px;
+}
+
+.articulo1 {
+    float: left;
+}
+
+.articulo1 img {
+    width: 500px;
+    margin-left: 25px;
+}
+
+.articulo2 {
+    float: right;
+}
+
+.articulo2 img {
+    width: 500px;
+    margin-left: 25px;
+}
+
+.articulo1 h2, .articulo2 h2 {
+    margin: 10px;
+}
+
+.articulo1 p, .articulo2 p {
+    margin: 10px;
+}

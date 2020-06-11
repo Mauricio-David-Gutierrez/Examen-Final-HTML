@@ -1,0 +1,58 @@
+form {
+    margin: auto;
+    width: 50%;
+    max-width: 500px;
+    padding: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    background: url("../Imagenes/Inicio De Sesion.jpg") #000;
+    background-size: contain;
+}
+
+input {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+input[type="submit"] {
+    width: 200px;
+    border: 0;
+    margin-bottom: 10;
+    border-radius: 20px;
+    background: linear-gradient(#ffda63, #ffb940);
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    opacity: 1;
+}
+
+input[type="submit"] {
+    transform: scale(0.9);
+}
+
+@media (max-width:768px) {
+    form {
+        width: 75%;
+    }
+}
+
+@media (max-width:480px) {
+    form {
+        width: 95%;
+    }
+}
+
+form a {
+    margin-left: 10px;
+    color: white;
+}
+
+form a:hover {
+    border: 3px solid red;
+    border-radius: 10px;
+}
