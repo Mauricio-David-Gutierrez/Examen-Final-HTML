@@ -1,0 +1,9 @@
+body{
+    background-color:black;
+    margin: 0px;
+}
+
+.cartelera, .estrenos {
+    width: 200px;
+    height: auto;
+}
