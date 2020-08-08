@@ -1,0 +1,5 @@
+$ git add .
+
+$ git commit -m "Redistribucion de carpetas"
+
+$ git push -f origin master
